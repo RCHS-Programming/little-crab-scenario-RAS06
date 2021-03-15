@@ -1,11 +1,18 @@
 #Greenfoot project file
 class.Crab.image=crab.png
 class.CrabWorld.image=sand.jpg
+<<<<<<< HEAD
 class.Worm.image=worm.png
 editor.fx.0.height=739
 editor.fx.0.width=816
 editor.fx.0.x=275
 editor.fx.0.y=10
+=======
+editor.fx.0.height=0
+editor.fx.0.width=0
+editor.fx.0.x=0
+editor.fx.0.y=0
+>>>>>>> 3b6fd608a7c1ef3ad4d1cfdb14e53c412a53575d
 height=745
 package.numDependencies=0
 package.numTargets=3
