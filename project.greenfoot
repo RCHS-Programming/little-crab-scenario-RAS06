@@ -1,10 +1,10 @@
 #Greenfoot project file
 class.Crab.image=crab.png
 class.CrabWorld.image=sand.jpg
-editor.fx.0.height=784
-editor.fx.0.width=1382
-editor.fx.0.x=-8
-editor.fx.0.y=-8
+editor.fx.0.height=0
+editor.fx.0.width=0
+editor.fx.0.x=0
+editor.fx.0.y=0
 height=745
 package.numDependencies=0
 package.numTargets=2
