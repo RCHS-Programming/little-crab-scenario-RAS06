@@ -1,10 +1,10 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Worm here.
+ * Edible Worm. Chemical Energy for crabs. 
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * Riz 
+ * 03.12.21
  */
 public class Worm extends Actor
 {
