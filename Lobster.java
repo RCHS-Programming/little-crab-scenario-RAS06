@@ -6,6 +6,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * Riz.
  * 03.15.21
  */
+
 public class Lobster extends Actor
 {
     /**
