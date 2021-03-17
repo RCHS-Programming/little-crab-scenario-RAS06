@@ -7,9 +7,12 @@ public class Crab extends Actor
 {
     public void act()
     { 
-        move(5);
         lookForWorm();
         checkKeyPress();
+        move(5);
+        int x = getX();
+        int y = getY();
+        System.out.println(x + "," + y);
     }
     
     public void lookForWorm()
@@ -38,6 +41,7 @@ public class Crab extends Actor
                 turn(4);
         }
     }
+    
 }
 
 
