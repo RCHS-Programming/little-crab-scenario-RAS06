@@ -5,14 +5,27 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, and Greenfoot)
  */
 public class Crab extends Actor
 {
+    
+    private GreenfootImage image1;
+    private GreenfootImage image2;
+    
+    int wormsEaten;
+    int timeToSwitchImage;
+      
+    public Crab() {
+        
+        image1 = new GreenfootImage("crab.png");
+        image2 = new GreenfootImage("crab2.png");
+        setImage(image1);
+
+    }
+    
     public void act()
     { 
         lookForWorm();
         checkKeyPress();
         move(5);
-        int x = getX();
-        int y = getY();
-        System.out.println(x + "," + y);
+        switchImage();
     }
     
     public void lookForWorm()
@@ -21,6 +34,14 @@ public class Crab extends Actor
         {
                removeTouching(Worm.class);
                Greenfoot.playSound("slurp.wav");
+               
+               wormsEaten = wormsEaten + 1;
+               
+                if (wormsEaten == 8) {
+                    Greenfoot.playSound("fanfare.wav");
+                    Greenfoot.stop();
+                }
+               
         }  
     }
 
@@ -41,6 +62,22 @@ public class Crab extends Actor
                 turn(4);
         }
     }
+    
+    public void switchImage() 
+    {
+        if(timeToSwitchImage >= 6) {
+            
+            if(getImage() == image1) {
+                 setImage(image2);
+                } else {
+                 setImage(image1);
+                 timeToSwitchImage = 0;
+                }
+                
+            }
+        timeToSwitchImage++;
+    }
+    
     
 }
 
