@@ -9,6 +9,9 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 public class Lobster extends Actor
 {
+    public boolean touchedCrabOne = false;
+    public boolean touchedCrabTwo = false; 
+     
     /**
      * Act - do whatever the Lobster wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
@@ -36,7 +39,20 @@ public class Lobster extends Actor
                removeTouching(Crab.class);
                Greenfoot.playSound("clap.wav");
                Greenfoot.stop();
+               
+               System.out.println(touchedCrabOne);
         }  
+        
+        if(isTouching(SecondCrab.class))
+        {
+               removeTouching(SecondCrab.class);
+               Greenfoot.playSound("clap.wav");
+               Greenfoot.stop();
+
+               
+               System.out.println(touchedCrabTwo);
+        }
+        
     }
     
     public void randomTurn()

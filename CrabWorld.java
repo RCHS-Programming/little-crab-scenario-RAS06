@@ -18,6 +18,8 @@ public class CrabWorld extends World
         
         addObject(new Crab(), 300, 300);
         
+        addObject(new SecondCrab(), 200, 200);
+        
         addObject(new Lobster(), 90, 70);
         addObject(new Lobster(), 390, 200);
         addObject(new Lobster(), 360, 500);
@@ -29,6 +31,14 @@ public class CrabWorld extends World
         addObject(new Worm(), Greenfoot.getRandomNumber(561), Greenfoot.getRandomNumber(561)); 
         addObject(new Worm(), Greenfoot.getRandomNumber(561), Greenfoot.getRandomNumber(561));
         addObject(new Worm(), Greenfoot.getRandomNumber(561), Greenfoot.getRandomNumber(561)); 
+        addObject(new Worm(), Greenfoot.getRandomNumber(561), Greenfoot.getRandomNumber(561));
+        addObject(new Worm(), Greenfoot.getRandomNumber(561), Greenfoot.getRandomNumber(561));
+        addObject(new Worm(), Greenfoot.getRandomNumber(561), Greenfoot.getRandomNumber(561));
+        addObject(new Worm(), Greenfoot.getRandomNumber(561), Greenfoot.getRandomNumber(561));
+        addObject(new Worm(), Greenfoot.getRandomNumber(561), Greenfoot.getRandomNumber(561));
+        addObject(new Worm(), Greenfoot.getRandomNumber(561), Greenfoot.getRandomNumber(561));
+        addObject(new Worm(), Greenfoot.getRandomNumber(561), Greenfoot.getRandomNumber(561));
+        addObject(new Worm(), Greenfoot.getRandomNumber(561), Greenfoot.getRandomNumber(561));
         addObject(new Worm(), Greenfoot.getRandomNumber(561), Greenfoot.getRandomNumber(561));
         addObject(new Worm(), Greenfoot.getRandomNumber(561), Greenfoot.getRandomNumber(561));
         addObject(new Worm(), Greenfoot.getRandomNumber(561), Greenfoot.getRandomNumber(561));
